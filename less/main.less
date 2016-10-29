@@ -183,7 +183,7 @@ a:after {
 }
 
 .navbar-collapse {
-  width: 50%;
+  width: auto;
   float: right;
 }
 
@@ -412,7 +412,7 @@ footer {
   }
 
   .producers-wrapper {
-    height: 500px;
+    height: auto;
     display: inline-table;
   }
 }
@@ -437,7 +437,7 @@ footer {
 .producers-wrapper {
   background-color: white;
   padding: 15px;
-  margin: 10% auto;
+  margin: 5% auto;
   text-align: center;
 
   img {
@@ -510,6 +510,7 @@ footer {
     text-align: center;
 
     img {
+      max-width: 100%;
       width: auto;
       height: 80px;
     }
@@ -549,9 +550,17 @@ footer {
         padding-bottom: 12px;
     }
 
+    .navbar-brand {
+      width: 250px;
+    }
+
     #footer-social-media-icons a {
         height: 15px;
         width: 15px;
+    }
+
+    footer {
+      font-size: 13px;
     }
 }
 
@@ -666,6 +675,7 @@ footer {
    .producers-wrapper {
      width: 30%;
      margin: 1.33%;
+     height: 500px;
      display: inline-block;
    }
 }
@@ -734,9 +744,6 @@ footer {
 /*--------- DESKTOP ---------*/
 
 @media (min-width: 1200px) {
-  .section-wrapper {
-    padding: @section-wrapper-padding 20%;
-  }
 
   #contact-form {
     width: 700px;
@@ -798,3 +805,8 @@ footer {
   }
 }
 
+@media (min-width: 1400px) {
+  .section-wrapper {
+    padding: @section-wrapper-padding 20%;
+  }
+}
