@@ -19,5 +19,10 @@ define(["controllersFactory",
       $scope.contentService = contentService.init($scope);
       $scope.tabService = tabService.init($scope);
       $scope.tabService.setTab(0);
+
+      $(document).ready(function() {
+        $('.navbar').css('background-color', 'transparent');
+      });
+
   }]);
 });
