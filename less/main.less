@@ -19,11 +19,13 @@
 @salmon: #FBCDB1;
 @gray: #E6E6E6;
 
-@footer-height: 80px;
+@footer-height: 50px;
 @footer-background-color: white;
+@footer-icons-height: 15px;
+@footer-icons-width: @footer-icons-height;
 @navbar-height: @footer-height;
 @navbar-background-color: white;
-@navbar-font-size: 20px;
+@navbar-font-size: 16px;
 @text-font-size: 12px;
 @subtitle-font-size: 14px;
 @section-wrapper-padding: 30px;
@@ -143,6 +145,7 @@ a:after {
   color: @maroon;
   background-color: transparent;
   font-weight: bold;
+  font-size: @navbar-font-size;
 }
 
 .nav-pills {
@@ -250,8 +253,8 @@ footer {
 
   a {
     margin: 0 15px;
-    height: 25px;
-    width: 25px;
+    height: @footer-icons-height;
+    width: @footer-icons-width;
 
     img {
       width: inherit;
@@ -292,24 +295,48 @@ footer {
   margin-top: 0;
   padding-top: @navbar-height;
 
+  video {
+    display: none;
+  }
+
   #profile-left {
     background: url('../resources/landing/sonya.png');
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
   }
 
   #profile-left:hover {
     background: url('../resources/landing/sonya_2.png');
     background-size: cover;
     background-position: 50%;
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
   }
 
   #profile-right {
     background: url('../resources/landing/patricia.png');
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
   }
 
   #profile-right:hover {
     background: url('../resources/landing/patricia_2.png');
     background-size: cover;
     background-position: 50%;
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
   }
 
   #profile-right, #profile-left {
@@ -555,8 +582,8 @@ footer {
     }
 
     #footer-social-media-icons a {
-        height: 15px;
-        width: 15px;
+        height: @footer-icons-height;
+        width: @footer-icons-width;
     }
 
     footer {
@@ -752,8 +779,26 @@ footer {
   }
 
   #landing-background {
-    background-image: url('../resources/images/light-background.png');
+    // background-image: url('../resources/images/light-background.png');
     background-size: cover;
+
+    video {
+        display: initial;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -100;
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        background: url(polina.jpg) no-repeat;
+        background-size: cover;
+    }
   }
 
   html, body, #ng-view, #ng-body {
