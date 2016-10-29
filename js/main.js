@@ -83,6 +83,18 @@ THIS FILE IS THE FIRST JAVASCRIPT FILE THAT IS LOADED AND CONTROLS THE INITIALAL
             .when('/stories', {templateUrl: 'templates/temp.html'}).
             otherwise({redirectTo: '/'})
 
+            .when('/blog', {templateUrl: 'templates/temp.html'}).
+            otherwise({redirectTo: '/'})
+
+            .when('/next', {templateUrl: 'templates/temp.html'}).
+            otherwise({redirectTo: '/'})
+
+            .when('/sonya', {templateUrl: 'templates/temp.html'}).
+            otherwise({redirectTo: '/'})
+
+            .when('/patricia', {templateUrl: 'templates/temp.html'}).
+            otherwise({redirectTo: '/'})
+
             .when('/about', {templateUrl: 'templates/about.html', controller: "AboutCtrl"}).
             otherwise({redirectTo: '/'});
         }]);

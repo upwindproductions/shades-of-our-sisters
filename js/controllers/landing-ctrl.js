@@ -21,6 +21,10 @@ define(["controllersFactory",
       $scope.tabService.setTab(0);
 
       $(document).ready(function() {
+        if ($('video').css('display') != 'none') {
+          $('.navbar').css('background-color', 'transparent');
+        }
+
         $(window).resize(function() {
           if ($('video').css('display') != 'none') {
             $('.navbar').css('background-color', 'transparent');
