@@ -292,6 +292,10 @@ footer {
   margin-top: 0;
   padding-top: @navbar-height;
 
+  video {
+    display: none;
+  }
+
   #profile-left {
     background: url('../resources/landing/sonya.png');
   }
@@ -752,8 +756,26 @@ footer {
   }
 
   #landing-background {
-    background-image: url('../resources/images/light-background.png');
+    // background-image: url('../resources/images/light-background.png');
     background-size: cover;
+
+    video {
+        display: initial;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -100;
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        background: url(polina.jpg) no-repeat;
+        background-size: cover;
+    }
   }
 
   html, body, #ng-view, #ng-body {
