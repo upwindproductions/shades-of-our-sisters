@@ -80,6 +80,9 @@ THIS FILE IS THE FIRST JAVASCRIPT FILE THAT IS LOADED AND CONTROLS THE INITIALAL
             .when('/contact', {templateUrl: 'templates/contact.html', controller: "ContactCtrl"}).
             otherwise({redirectTo: '/'})
 
+            .when('/stories', {templateUrl: 'templates/temp.html'}).
+            otherwise({redirectTo: '/'})
+
             .when('/about', {templateUrl: 'templates/about.html', controller: "AboutCtrl"}).
             otherwise({redirectTo: '/'});
         }]);
