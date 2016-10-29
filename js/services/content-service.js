@@ -65,7 +65,7 @@ define(['servicesFactory'],
               'sub_role': 'Cinematographer',
               'profile_pic': './resources/about/team/mel.jpg',
               'instagram': 'https://www.instagram.com/odiseaproductions/',
-              'web': 'www.odiseaproductions.com',
+              'website': 'www.odiseaproductions.com',
               'email': 'melissa.gonzalez@ryerson.ca'
             },
             {
