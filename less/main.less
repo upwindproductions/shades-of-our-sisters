@@ -293,19 +293,23 @@ footer {
   padding-top: @navbar-height;
 
   #profile-left {
-    background: url('../resources/images/sonya.jpg');
+    background: url('../resources/landing/sonya.png');
   }
 
   #profile-left:hover {
-    background: url('http://placehold.it/350x150');
+    background: url('../resources/landing/sonya_2.png');
+    background-size: cover;
+    background-position: 50%;
   }
 
   #profile-right {
-    background: url('../resources/images/patricia.png');
+    background: url('../resources/landing/patricia.png');
   }
 
   #profile-right:hover {
-    background: url('http://placehold.it/350x150');
+    background: url('../resources/landing/patricia_2.png');
+    background-size: cover;
+    background-position: 50%;
   }
 
   #profile-right, #profile-left {
@@ -406,6 +410,11 @@ footer {
   div {
     height: auto;
   }
+
+  .producers-wrapper {
+    height: 500px;
+    display: inline-table;
+  }
 }
 
 #blurb-section {
@@ -427,7 +436,6 @@ footer {
 
 .producers-wrapper {
   background-color: white;
-  height: 500px;
   padding: 15px;
   margin: 10% auto;
   text-align: center;
@@ -435,6 +443,8 @@ footer {
   img {
     border-radius: 100px;
     margin: 30px;
+    width: 150px;
+    height: 150px;
   }
 
   .section-header {
@@ -492,6 +502,7 @@ footer {
 #credits-section {
   background-color: white;
   margin-bottom: @footer-height;
+  font-family: 'Lato';
 
   .sponsor {
     width: 33%;
