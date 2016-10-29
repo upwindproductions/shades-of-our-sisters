@@ -12,7 +12,7 @@ define(['servicesFactory'],
           profile_left_description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
           profile_right_name: 'Sonya',
           profile_right_description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-          blurb: 'This is the about section. To the right is Sonya, to the left is Patricia.',
+          blurb: 'Shades of our Sisters aims to humanize Missing and Murdered Indigenous Women by collaborating with Indigenous community members to tell their story.',
           about_blurb: 'Shades of Our Sisters directly challenges the way in which the Canadian mainstream media is portraying our Missing and Murdered Indigenous Women by honouring who they were and how they lived, not how they died. Coinciding with the February Strawberry Ceremonies, Shades of Our Sisters will debut a live exhibition and two short documentaries that celebrate the spirit and memories of Sonya Cywink and Patricia Carpenter.',
           producers: [
             {
@@ -65,7 +65,7 @@ define(['servicesFactory'],
               'sub_role': 'Cinematographer',
               'profile_pic': './resources/about/team/mel.jpg',
               'instagram': 'https://www.instagram.com/odiseaproductions/',
-              'web': 'www.odiseaproductions.com',
+              'website': 'www.odiseaproductions.com',
               'email': 'melissa.gonzalez@ryerson.ca'
             },
             {
