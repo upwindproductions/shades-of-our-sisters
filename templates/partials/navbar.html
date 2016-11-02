@@ -13,12 +13,14 @@
 
             <div class="navbar-collapse collapse">
               <ul class="nav nav-pills navbar-right">
-                    <li ng-class="{active: tabService.isSet(1)}">
-                      <a href="#/about" ng-click="tabService.setTab(1)">About</a>
-                    </li>
-
-                    <li ng-class="{active: tabService.isSet(2)}">
-                      <a href="#/contact" ng-click="tabService.setTab(2)">Contact</a>
+                    <li class="dropdown" ng-class="{active: tabService.isSet(1)}">
+                        <a class="dropdown-toggle disabled" data-toggle="dropdown" href="#/about" ng-click="tabService.setTab(1)">
+                          About
+                          <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#/contact" ng-click="tabService.setTab(2)">Contact</a></li>
+                        </ul>
                     </li>
 
                     <li ng-class="{active: tabService.isSet(3)}">

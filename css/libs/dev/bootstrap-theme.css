@@ -326,21 +326,14 @@ fieldset[disabled] .btn-danger.active {
 }
 .dropdown-menu {
     position: absolute;
-    top: 60%;
-    left: 13%;
+    top: 70%;
     z-index: 1000;
     display: none;
     float: left;
-    padding: 5px 0;
+    padding: 10px;
     margin: 2px 0 0;
     list-style: none;
     font-size: 20px;
-    /*border: 1px solid #ccc;
-    border: 1px solid rgba(0,0,0,.15);
-    border-radius: 4px;
-    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
-    box-shadow: 0 6px 12px rgba(0,0,0,.175);
-    background-clip: padding-box;*/
 }
 
 /*.dropdown-menu > li > a:hover,

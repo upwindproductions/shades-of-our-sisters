@@ -20,16 +20,73 @@ define(["controllersFactory",
       $scope.tabService = tabService.init($scope);
       $scope.tabService.setTab(0);
 
-      $(document).ready(function() {
-        if ($('video').css('display') != 'none') {
-          $('.navbar').css('background-color', 'transparent');
-        }
+      // $scope.render_desktop_ui = function() {
+      //   // Navbar
+      //   $('.navbar').css('background-color', 'transparent');
+      //   $('.nav-pills>li>a').css('color', 'white');
+      //   $('#blurb').css('color', 'white');
 
-        $(window).resize(function() {
-          if ($('video').css('display') != 'none') {
-            $('.navbar').css('background-color', 'transparent');
-          }
-        });
-      });
+      //   var _navbar_brand = $('.navbar-brand');
+      //   var _navbar_brand_styles = {
+      //     'background': 'url(../../resources/logos/navbar_logo_white.png)',
+      //     'height': '100%',
+      //     'background-repeat': 'no-repeat',
+      //     'background-size': 'contain',
+      //     'width': '270px',
+      //     'padding': '0',
+      //     'background-position': '0'
+      //   };
+
+      //   for (var style in _navbar_brand_styles) {
+      //     _navbar_brand.css(style, _navbar_brand_styles[style]);
+      //   }
+
+      //   // footer
+      //   $('footer').css('color', 'white');
+      //   $('#footer-facebook').attr('src', '../../resources/icons/facebook_white.png');
+      //   $('#footer-twitter').attr('src', '../../resources/icons/twitter_white.png');
+      //   $('#footer-instagram').attr('src', '../../resources/icons/instagram_white.png');
+      // };
+
+      // $scope.render_mobile_ui = function() {
+      //   var _maroon = '#8b181a';
+
+      //   $('.nav-pills>li>a').css('color', _maroon);
+
+      //   var _navbar_brand = $('.navbar-brand');
+      //   var _navbar_brand_styles = {
+      //     'background': 'url(../../resources/logos/navbar_logo.png)',
+      //     'height': '100%',
+      //     'background-repeat': 'no-repeat',
+      //     'background-size': 'contain',
+      //     'width': '270px',
+      //     'padding': '0',
+      //     'background-position': '0'
+      //   };
+
+      //   for (var style in _navbar_brand_styles) {
+      //     _navbar_brand.css(style, _navbar_brand_styles[style]);
+      //   }
+
+      //   // footer
+      //   $('footer').css('color', _maroon);
+      //   $('#footer-facebook').attr('src', '../../resources/icons/facebook.png');
+      //   $('#footer-twitter').attr('src', '../../resources/icons/twitter.png');
+      //   $('#footer-instagram').attr('src', '../../resources/icons/instagram.png');
+      // };
+
+      // $(document).ready(function() {
+      //   if ($(window).width() >= 1200 && $('video').css('display')) {
+      //     $scope.render_desktop_ui();
+      //   }
+
+      //   $(window).resize(function() {
+      //     if ($(window).width() >= 1200 && $('video').css('display')) {
+      //       $scope.render_desktop_ui();
+      //     } else {
+      //       $scope.render_mobile_ui();
+      //     }
+      //   });
+      // });
   }]);
 });
