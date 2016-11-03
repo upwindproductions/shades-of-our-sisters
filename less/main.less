@@ -305,7 +305,10 @@ footer {
   }
 
   #profile-left {
-    background: url('../resources/landing/sonya.png');
+    background: url('../resources/landing/sonya_mobile.jpg');
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
     -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
     -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -314,9 +317,10 @@ footer {
   }
 
   #profile-left:hover {
-    background: url('../resources/landing/sonya_2.png');
+    background: url('../resources/landing/sonya_mobile_2.jpg');
     background-size: cover;
     background-position: 50%;
+    background-repeat: no-repeat;
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
     -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
     -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -325,7 +329,10 @@ footer {
   }
 
   #profile-right {
-    background: url('../resources/landing/patricia.png');
+    background: url('../resources/landing/patricia_mobile.jpg');
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
     -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
     -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -334,9 +341,10 @@ footer {
   }
 
   #profile-right:hover {
-    background: url('../resources/landing/patricia_2.png');
+    background: url('../resources/landing/patricia_mobile_2.jpg');
     background-size: cover;
     background-position: 50%;
+    background-repeat: no-repeat;
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
     -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
     -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -447,7 +455,7 @@ footer {
   }
 
   .producers-wrapper {
-    height: auto;
+    height: 700px;
     display: inline-table;
   }
 }
@@ -778,6 +786,18 @@ footer {
 
 @media (min-width: 1200px) {
 
+  #blurb-logo {
+    margin-top: 30%
+  }
+
+  #blurb {
+    p {
+      padding-top: 0;
+      margin: 0 auto;
+      // border-top: 2px solid @maroon;
+    }
+  }
+
   #contact-form {
     width: 700px;
     margin: 30px auto;
@@ -832,6 +852,55 @@ footer {
   }
 
   #landing-background {
+
+    #profile-left {
+      background: url('../resources/landing/sonya_desktop.png');
+      background-size: contain;
+      background-position: 50%;
+      background-repeat: no-repeat;
+      -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+      -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+      -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+      -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+      transition: color 0.1s ease-in, background 0.1s ease-in;
+    }
+
+    #profile-left:hover {
+      background: url('../resources/landing/sonya_desktop_2.png');
+      background-size: contain;
+      background-position: 50%;
+      background-repeat: no-repeat;
+      -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+      -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+      -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+      -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+      transition: color 0.1s ease-in, background 0.1s ease-in;
+    }
+
+    #profile-right {
+      background: url('../resources/landing/patricia_desktop.png');
+      background-size: contain;
+      background-position: 50%;
+      background-repeat: no-repeat;
+      -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+      -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+      -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+      -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+      transition: color 0.1s ease-in, background 0.1s ease-in;
+    }
+
+    #profile-right:hover {
+      background: url('../resources/landing/patricia_desktop_2.png');
+      background-size: contain;
+      background-position: 50%;
+      background-repeat: no-repeat;
+      -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+      -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+      -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+      -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+      transition: color 0.1s ease-in, background 0.1s ease-in;
+    }
+
     #col-left, #col-right {
        width: 33%;
      }
@@ -843,9 +912,6 @@ footer {
       text-align: center;
       height: @landing-profile-height;
       width: @landing-profile-width;
-      -webkit-box-shadow: 0px 13px 26px 0px rgba(0,0,0,0.68);
-      -moz-box-shadow: 0px 13px 26px 0px rgba(0,0,0,0.68);
-      box-shadow: 0px 13px 26px 0px rgba(0,0,0,0.68);
     }
 
     .col {
