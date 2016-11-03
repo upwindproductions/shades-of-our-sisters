@@ -455,7 +455,7 @@ footer {
   }
 
   .producers-wrapper {
-    height: 700px;
+    height: auto;
     display: inline-table;
   }
 }
@@ -657,6 +657,10 @@ footer {
 
 /*-------- BREAKING POINT FOR NAVBAR ------*/
 @media (min-width: 768px){
+    #contact-tab {
+      display: none;
+    }
+
     .dropdown:hover .dropdown-menu {
         display: block;
         border-radius: 0;
@@ -711,11 +715,13 @@ footer {
     padding-right: 0%;
    }
 
-   .producers-wrapper {
-     width: 30%;
-     margin: 1.33%;
-     height: 500px;
-     display: inline-block;
+   #about-background {
+    .producers-wrapper {
+      width: 30%;
+      margin: 1.33%;
+      height: 700px;
+      display: inline-table;
+    }
    }
 }
 
