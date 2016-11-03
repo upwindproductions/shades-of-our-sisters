@@ -23,6 +23,10 @@
                         </ul>
                     </li>
 
+                    <li id='contact-tab' ng-class="{active: tabService.isSet(2)}">
+                      <a href='#/contact' ng-click='tabService.setTab(2)'>Contact</a>
+                    </li>
+
                     <li ng-class="{active: tabService.isSet(3)}">
                       <a href="#/blog" ng-click="tabService.setTab(3)">Blog</a>
                     </li>
