@@ -32,6 +32,7 @@
 
 @landing-profile-height: 80%;
 @landing-profile-width: 80%;
+@background: url('../resources/images/gaussian.png');
 
 html * {
   -webkit-font-smoothing: antialiased;
@@ -139,6 +140,8 @@ a:after {
 
 .dropdown-menu{
     text-align: center;
+    background-color: white;
+    padding: 10px;
 }
 
 .dropdown ul li a{
@@ -232,6 +235,7 @@ footer {
   height: @footer-height;
   display: flex;
   align-items: center;
+  background-color: white;
 
   span {
     display: inline-block;
@@ -276,12 +280,13 @@ footer {
 #blurb {
   text-align: center;
   float: left;
+  color: white;
 
   p {
     padding-top: 10%;
     width: 50%;
     margin: 10% auto;
-    border-top: 2px solid @maroon;
+    // border-top: 2px solid @maroon;
   }
 }
 
@@ -380,7 +385,8 @@ footer {
   #form-wrapper {
     width: 100%;
     height: 100%;
-    background-color: @green;
+    background-image: @background;
+    background-size: cover;
   }
 }
 
@@ -433,7 +439,8 @@ footer {
 
 #about-background {
   height: auto;
-  background-color: @green;
+  background-image: @background;
+  background-size: cover;
 
   div {
     height: auto;
@@ -445,9 +452,9 @@ footer {
   }
 }
 
-#blurb-section {
-  background: url('http://placehold.it/350x150');
-}
+// #blurb-section {
+//   background: url('http://placehold.it/350x150');
+// }
 
 #blurb-wrapper {
   background-color: white;
@@ -666,10 +673,6 @@ footer {
        align-items: center;
      }
 
-     #blurb-section {
-       background: @green;
-     }
-
      #blurb-wrapper {
        background-color: white;
 
@@ -677,7 +680,7 @@ footer {
          padding: 30px;
          text-align: center;
          display: inline-block;
-         width: 70%;
+         width: 100%;
        }
 
        img {
@@ -737,7 +740,9 @@ footer {
     display: inline-block;
     width: 100%;
     height: 600px;
-    background-color: @green;
+    background-image: @background;
+    background-size: cover;
+    background-repeat: no-repeat;
 
     #blurb-logo {
       background-position: 50%;
