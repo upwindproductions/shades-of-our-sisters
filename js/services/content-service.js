@@ -16,17 +16,17 @@ define(['servicesFactory'],
           about_blurb: 'Shades of Our Sisters directly challenges the way in which the Canadian mainstream media is portraying our Missing and Murdered Indigenous Women by focusing on how they lived, not how they died. Coinciding with the February Strawberry Ceremonies, Shades of Our Sisters will debut a live exhibition and two short documentaries that celebrate the spirit and memories of Sonya Cywink and Patricia Carpenter. The exhibition works to tell stories of Sonya and Patricia through artifacts from their lives, short documentary pieces and soundscapes. This project humanizes two of the 1,600+ MMIWGT2S in an extremely intimate manner, creating an education violence prevention experience which will last with those who attend. Our hope is that the stories of Sonya and Patricia will encourage young people to recognize how they can work to prevent violence from happening in their own lives and their communities at large.',
           producers: [
             {
-              'name': 'Mag',
+              'name': 'Mag Cywink',
               'profile_pic': './resources/about/producers/mag.jpg',
               'blurb': 'Maggie Cywink, is a member of Whitefish River First Nation and resides in Virginia. Maggie has been advocating for the families of the MMIWGT2S People in Ontario since 1994. Her hope is that families will find a way to heal. She owns a curatorial business which leads her to work with private collections across the country. As a part of her endeavors, she owns a small event planning and marketing business focusing on First Nations which grown over the past few years.'
             },
             {
-              'name': 'Alex',
+              'name': 'Alex Cywink',
               'profile_pic': './resources/about/producers/alex.jpg',
               'blurb': 'A brother, residing in Toronto and a graduate with a trouble-shooting degree whose primary efforts have been in the fields of social work, film/television and education (storytelling). With a wealth of experience, his values, perspective and understanding are closely aligned with those of his ancestors (pre-1492).'
             },
             {
-              'name': 'Joyce',
+              'name': 'Joyce Carpenter',
               'profile_pic': './resources/about/producers/joyce.jpg',
               'blurb': "Joyce Carpenter is the Mother of the Late Beautiful Patricia Carpenter. She has five sons; Derek, Patrick Jr., James, Dakota and Lukie Littleloon as well as being the proud grandmother of seven awesome grandchildren who she knows would absolutely love their Auntie Trish. Joyce is retired, after working many years at Indian and Northern Affairs, and Women's College Hospital here in Toronto. She left work for a bit to raise her small children, then went on to volunteer at Native organizations such as NWRC and Council Fire. Joyce is involved in the Aboriginal Community in Toronto, and has become a spokesperson for the MMIWG. Besides raising her own children, Joyce was always fortunate to have foster children in her care, many of whom still keep in touch."
             }
@@ -96,7 +96,7 @@ define(['servicesFactory'],
               'email': 'Joshua.a.howe@ryerson.ca'
             },
             {
-              'name': 'Antoinetta Emmanuel',
+              'name': 'Antonietta Emmanuel',
               'role': 'Director of Audio',
               'sub_role': ' ',
               'profile_pic': './resources/about/team/antonietta.jpg',

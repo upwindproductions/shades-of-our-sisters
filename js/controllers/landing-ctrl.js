@@ -9,16 +9,21 @@ define(["controllersFactory",
 
   controllersFactory.controller('LandingCtrl',
     ['$scope',
+     '$location',
      'ContentService',
      'TabService',
 
     function($scope,
+      $location,
       contentService,
       tabService) {
 
       $scope.contentService = contentService.init($scope);
       $scope.tabService = tabService.init($scope);
       $scope.tabService.setTab(0);
+      $scope.go = function ( path ) {
+        $location.path(path);
+      };
 
       // $scope.render_desktop_ui = function() {
       //   // Navbar
