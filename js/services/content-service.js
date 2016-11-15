@@ -116,7 +116,12 @@ define(['servicesFactory'],
               'image': './resources/about/credits/rta_logo.png'
             }
           ],
-          'credits_blurb': 'We’d like to thank you for supporting Shades of our Sisters.'
+          'credits_blurb': 'We’d like to thank you for supporting Shades of our Sisters.',
+          'next_blurb': 'There needs to be a sacred circle of healing. When the healing starts our family and community grows stronger. We have the answers, we just need to start listening.',
+          'next_author_quote': 'Maggie Cywink',
+          'contact_blurb': 'This page will be updated with links and resources on how you can prevent violence in your communities, and promote a safe environment. In the meantime, if you have further questions, please feel free to contact us at ',
+          'email': 'info@shadesofoursisters.com',
+          'miigwetch': ' Miigwetch.'
         };
 
         service.init = function(scope) {

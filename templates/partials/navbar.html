@@ -13,38 +13,28 @@
 
             <div class="navbar-collapse collapse">
               <ul class="nav nav-pills navbar-right">
-                    <li class="dropdown" ng-class="{active: tabService.isSet(1)}">
-                        <a class="dropdown-toggle disabled" data-toggle="dropdown" href="#/about" ng-click="tabService.setTab(1)">
-                          About
-                          <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="#/contact" ng-click="tabService.setTab(2)">Contact</a></li>
-                        </ul>
+                    <li ng-class="{active: tabService.isSet(1)}">
+                      <a href='#/about' ng-click='tabService.setTab(1)'>About</a>
                     </li>
 
-                    <li id='contact-tab' ng-class="{active: tabService.isSet(2)}">
-                      <a href='#/contact' ng-click='tabService.setTab(2)'>Contact</a>
+                    <li ng-class="{active: tabService.isSet(2)}">
+                      <a href="#/blog" ng-click="tabService.setTab(2)">Blog</a>
                     </li>
 
-                    <li ng-class="{active: tabService.isSet(3)}">
-                      <a href="#/blog" ng-click="tabService.setTab(3)">Blog</a>
-                    </li>
-
-                    <li class="dropdown" ng-class="{active: tabService.isSet(4)}">
+                    <li class="dropdown" ng-class="{active: tabService.isSet(3)}">
                         <a class="dropdown-toggle disabled" data-toggle="dropdown" href="#/stories" ng-click="tabService.setTab(4)">
                           Stories
                           <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="#/sonya" ng-click="tabService.setTab(4)">Sonya</a></li>
+                            <li><a href="#/sonya" ng-click="tabService.setTab(3)">Sonya</a></li>
                             <li role="presentation" class="divider"></li>
-                            <li><a href="#/patricia" ng-click="tabService.setTab(4)">Patricia</a></li>
+                            <li><a href="#/patricia" ng-click="tabService.setTab(3)">Patricia</a></li>
                         </ul>
                     </li>
 
-                    <li ng-class="{active: tabService.isSet(5)}">
-                      <a href="#/next" ng-click="tabService.setTab(5)">What's Next</a>
+                    <li ng-class="{active: tabService.isSet(4)}">
+                      <a href="#/next" ng-click="tabService.setTab(4)">What's Next</a>
                     </li>
                   </ul>
             </div>

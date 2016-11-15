@@ -69,15 +69,12 @@ THIS FILE IS THE FIRST JAVASCRIPT FILE THAT IS LOADED AND CONTROLS THE INITIALAL
     require([
         'controllers/landing-ctrl',
         'controllers/about-ctrl',
-        'controllers/contact-ctrl',
+        'controllers/next-ctrl'
       ],
       function() {
         app.config(['$routeProvider', function($routeProvider) {
           $routeProvider
             .when('/', {templateUrl: 'templates/landing.html', controller: "LandingCtrl"}).
-            otherwise({redirectTo: '/'})
-
-            .when('/contact', {templateUrl: 'templates/contact.html', controller: "ContactCtrl"}).
             otherwise({redirectTo: '/'})
 
             .when('/stories', {templateUrl: 'templates/temp.html'}).
@@ -86,7 +83,7 @@ THIS FILE IS THE FIRST JAVASCRIPT FILE THAT IS LOADED AND CONTROLS THE INITIALAL
             .when('/blog', {templateUrl: 'templates/temp.html'}).
             otherwise({redirectTo: '/'})
 
-            .when('/next', {templateUrl: 'templates/temp.html'}).
+            .when('/next', {templateUrl: 'templates/next.html', controller: "NextCtrl"}).
             otherwise({redirectTo: '/'})
 
             .when('/sonya', {templateUrl: 'templates/temp.html'}).
