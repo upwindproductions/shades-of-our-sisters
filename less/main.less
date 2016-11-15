@@ -15,7 +15,7 @@
 @yellow: #fdeaa6;
 @green: #98bcaa;
 @maroon: #8b181a;
-@brown: #b27253;
+@brown: #EFE8D8;
 @salmon: #FBCDB1;
 @gray: #E6E6E6;
 
@@ -32,7 +32,7 @@
 
 @landing-profile-height: 80%;
 @landing-profile-width: 80%;
-@background: url('../resources/images/gaussian.png');
+@background: @brown;
 
 html * {
   -webkit-font-smoothing: antialiased;
@@ -72,6 +72,7 @@ li span {
 
 .page-wrap {
   padding-top: @navbar-height;
+  background: @background;
 }
 
 .section-header {
@@ -213,7 +214,7 @@ a:after {
 }
 
 .nav {
-  background-color: rgba(251,205,177, 0.95);
+  background-color: white;
 }
 
 .glyphicon {
@@ -385,69 +386,11 @@ footer {
 }
 
 
-/*-------------------- CONTACT -------------------*/
-
-#contact-background {
-  font-family: 'Lato';
-
-  #form-wrapper {
-    width: 100%;
-    height: 100%;
-    background-image: @background;
-    background-size: cover;
-  }
-}
-
-.help-block {
-  color: @maroon;
-}
-
-#contact-form {
-  width: 100%;
-  margin: 5% auto;
-  padding: 5%;
-  font-size: 18px;
-  background-color: white;
-  text-align: center;
-
-  input, textarea {
-    width: 100%;
-    padding: 5px;
-    border: none;
-    background-color: @gray;
-    resize: none;
-  }
-
-  label {
-    width: 100%;
-    color: @maroon;
-    text-align: left;
-    margin-top: 30px;
-  }
-
-  #name_label {
-    margin-top: 0;
-  }
-
-  #submit {
-    width: auto;
-    padding: 10px 51px;
-    background-color: transparent;
-    border: 1px solid @maroon;
-    color: @maroon;
-    margin-top: 30px;
-  }
-
-  input:focus, textarea:focus {
-    outline: none;
-  }
-}
-
 /*--------------------------- ABOUT ----------------------------*/
 
 #about-background {
   height: auto;
-  background-image: @background;
+  background: @background;
   background-size: cover;
 
   div {
@@ -565,7 +508,73 @@ footer {
   }
 }
 
+
+/* --------------------------------- NEXT ---------------------------------- */
+
+#next-background {
+  text-align: center;
+  font-family: 'Quadraat';
+
+  .section-wrapper {
+    padding: 10% 20%;
+  }
+}
+
+#next-blurb {
+  font-size: 36px;
+  color: @maroon;
+}
+
+#next-author-quote {
+  font-style: italic;
+  color: @maroon;
+}
+
+#contact-blurb {
+  padding: 5% 20%;
+  background-color: white;
+  margin: 10% auto;
+
+  span {
+    color: @maroon;
+  }
+}
+
+
+/* --------------------------- SONYA ------------------------------ */
+
+#sonya-background {
+  background: url('../resources/sonya/background.jpg');
+  color: white;
+  display: flex;
+  align-items: center;
+  min-height: 600px;
+
+  h1 {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+
+/* --------------------------- PATRICIA ------------------------------ */
+
+#patricia-background {
+  background: url('../resources/patricia/background.jpg');
+  color: white;
+  display: flex;
+  align-items: center;
+  min-height: 600px;
+
+  h1 {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+
 /* ----------------------------------------- MEDIA QUERIES ----------------------------------------- */
+
 
 @media (max-width: 480px){
 
@@ -576,7 +585,6 @@ footer {
     }
 
     .navbar .navbar-collapse {
-        padding: 10px;
         max-height: none;
       }
 
@@ -635,6 +643,16 @@ footer {
       margin: 5% 0;
     }
   }
+
+  #next-blurb {
+    font-size: 16px;
+  }
+
+  #next-background {
+    .section-wrapper {
+      padding: 10%;
+    }
+  }
 }
 
 @media (min-width: 690px) {
@@ -657,6 +675,11 @@ footer {
       width: 100%;
       margin: 5px auto;
     }
+  }
+
+  .navbar-collapse {
+    right: -59px;
+    position: relative;
   }
 }
 
@@ -759,7 +782,7 @@ footer {
     display: inline-block;
     width: 100%;
     height: 600px;
-    background-image: @background;
+    background: @background;
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -816,8 +839,8 @@ footer {
   }
 
   #landing-background {
-    // background-image: url('../resources/images/light-background.png');
     background-size: cover;
+    background: transparent;
 
     video {
         display: initial;
