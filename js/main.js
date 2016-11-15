@@ -69,7 +69,9 @@ THIS FILE IS THE FIRST JAVASCRIPT FILE THAT IS LOADED AND CONTROLS THE INITIALAL
     require([
         'controllers/landing-ctrl',
         'controllers/about-ctrl',
-        'controllers/next-ctrl'
+        'controllers/next-ctrl',
+        'controllers/patricia-ctrl',
+        'controllers/sonya-ctrl'
       ],
       function() {
         app.config(['$routeProvider', function($routeProvider) {
@@ -86,10 +88,10 @@ THIS FILE IS THE FIRST JAVASCRIPT FILE THAT IS LOADED AND CONTROLS THE INITIALAL
             .when('/next', {templateUrl: 'templates/next.html', controller: "NextCtrl"}).
             otherwise({redirectTo: '/'})
 
-            .when('/sonya', {templateUrl: 'templates/temp.html'}).
+            .when('/sonya', {templateUrl: 'templates/sonya.html', controller: "SonyaCtrl"}).
             otherwise({redirectTo: '/'})
 
-            .when('/patricia', {templateUrl: 'templates/temp.html'}).
+            .when('/patricia', {templateUrl: 'templates/patricia.html', controller: "PatriciaCtrl"}).
             otherwise({redirectTo: '/'})
 
             .when('/about', {templateUrl: 'templates/about.html', controller: "AboutCtrl"}).
