@@ -113,7 +113,16 @@ define(['servicesFactory'],
               'image': './resources/about/credits/ryerson.png'
             },
             {
-              'image': './resources/about/credits/rta_logo.png'
+              'image': './resources/about/credits/rta.jpg'
+            },
+            {
+              'image': './resources/about/credits/fcad.jpg'
+            },
+            {
+              'image': './resources/about/credits/recode.png'
+            },
+            {
+              'image': './resources/about/credits/SIF.png'
             }
           ],
           'credits_blurb': 'We’d like to thank you for supporting Shades of our Sisters.',
