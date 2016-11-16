@@ -18,7 +18,7 @@ define(['servicesFactory'],
             {
               'name': 'Mag Cywink',
               'profile_pic': './resources/about/producers/mag.jpg',
-              'blurb': 'Maggie Cywink, is a member of Whitefish River First Nation and resides in Virginia. Maggie has been advocating for the families of the MMIWGT2S People in Ontario since 1994. Her hope is that families will find a way to heal. She owns a curatorial business which leads her to work with private collections across the country. As a part of her endeavors, she owns a small event planning and marketing business focusing on First Nations which grown over the past few years.'
+              'blurb': 'Maggie Cywink is a member of the Whitefish River First Nation and is currently residing in Virginia, USA. She owns a curatorial business which deals with private collectors across Canada and the United States. She also owns an event planning business focusing on First Nations. Since 1994, she has been advocating for the voices of MMIWGT2S People’s families. Her hope is that these families will find a way to heal.'
             },
             {
               'name': 'Alex Cywink',
@@ -28,7 +28,7 @@ define(['servicesFactory'],
             {
               'name': 'Joyce Carpenter',
               'profile_pic': './resources/about/producers/joyce.jpg',
-              'blurb': "Joyce Carpenter is the Mother of the Late Beautiful Patricia Carpenter. She has five sons; Derek, Patrick Jr., James, Dakota and Lukie Littleloon as well as being the proud grandmother of seven awesome grandchildren who she knows would absolutely love their Auntie Trish. Joyce is retired, after working many years at Indian and Northern Affairs, and Women's College Hospital here in Toronto. She left work for a bit to raise her small children, then went on to volunteer at Native organizations such as NWRC and Council Fire. Joyce is involved in the Aboriginal Community in Toronto, and has become a spokesperson for the MMIWG. Besides raising her own children, Joyce was always fortunate to have foster children in her care, many of whom still keep in touch."
+              'blurb': 'Joyce spent many years working in Indian and Northern Affairs as well as volunteering at Native organizations like NWRC and Council Fire. Now retired, Joyce is currently involved in the Aboriginal community of Toronto, and has become a spokesperson for the MMIWGT2S. She has five sons and seven grandchildren, who she knows would absolutely love their Auntie Trish.'
             }
           ],
           teammates: [
