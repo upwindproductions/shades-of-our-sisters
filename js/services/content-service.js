@@ -8,17 +8,21 @@ define(['servicesFactory'],
         var service = {
           /* ------------ LANDING PAGE --------------*/
 
-          profile_left_name: "View Sonya's story",
+          profile_left_name: "Sonya's story",
           profile_left_description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-          profile_right_name: "View Patricia's story",
+          profile_right_name: "Patricia's story",
           profile_right_description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-          blurb: 'It’s about honouring how they lived, not how they died.',
+          blurb: ['Her smile, her laugh.',
+                  'She stood up for her siblings and she spoke her mind.',
+                  'She looked like her mother and sounded just like her sister.',
+                  'How she lived, how she is loved and just how much she is missed.',
+                  'These are the Shades of Our Sisters.'],
           about_blurb: 'Shades of Our Sisters directly challenges the way in which the Canadian mainstream media is portraying our Missing and Murdered Indigenous Women by focusing on how they lived, not how they died. Coinciding with the February Strawberry Ceremonies, Shades of Our Sisters will debut a live exhibition and two short documentaries that celebrate the spirit and memories of Sonya Cywink and Patricia Carpenter. The exhibition works to tell stories of Sonya and Patricia through artifacts from their lives, short documentary pieces and soundscapes. This project humanizes two of the 1,600+ MMIWGT2S in an extremely intimate manner, creating an education violence prevention experience which will last with those who attend. Our hope is that the stories of Sonya and Patricia will encourage young people to recognize how they can work to prevent violence from happening in their own lives and their communities at large.',
           producers: [
             {
-              'name': 'Mag Cywink',
+              'name': 'Maggie Cywink',
               'profile_pic': './resources/about/producers/mag.jpg',
-              'blurb': 'Maggie Cywink, is a member of Whitefish River First Nation and resides in Virginia. Maggie has been advocating for the families of the MMIWGT2S People in Ontario since 1994. Her hope is that families will find a way to heal. She owns a curatorial business which leads her to work with private collections across the country. As a part of her endeavors, she owns a small event planning and marketing business focusing on First Nations which grown over the past few years.'
+              'blurb': 'Maggie Cywink is a member of the Whitefish River First Nation and is currently residing in Virginia, USA. She owns a curatorial business which deals with private collectors across Canada and the United States. She also owns an event planning business focusing on First Nations. Since 1994, she has been advocating for the voices of MMIWGT2S People’s families. Her hope is that these families will find a way to heal.'
             },
             {
               'name': 'Alex Cywink',
@@ -28,7 +32,7 @@ define(['servicesFactory'],
             {
               'name': 'Joyce Carpenter',
               'profile_pic': './resources/about/producers/joyce.jpg',
-              'blurb': "Joyce Carpenter is the Mother of the Late Beautiful Patricia Carpenter. She has five sons; Derek, Patrick Jr., James, Dakota and Lukie Littleloon as well as being the proud grandmother of seven awesome grandchildren who she knows would absolutely love their Auntie Trish. Joyce is retired, after working many years at Indian and Northern Affairs, and Women's College Hospital here in Toronto. She left work for a bit to raise her small children, then went on to volunteer at Native organizations such as NWRC and Council Fire. Joyce is involved in the Aboriginal Community in Toronto, and has become a spokesperson for the MMIWG. Besides raising her own children, Joyce was always fortunate to have foster children in her care, many of whom still keep in touch."
+              'blurb': 'Joyce spent many years working in Indian and Northern Affairs as well as volunteering at Native organizations like NWRC and Council Fire. Now retired, Joyce is currently involved in the Aboriginal community of Toronto, and has become a spokesperson for the MMIWGT2S. She has five sons and seven grandchildren, who she knows would absolutely love their Auntie Trish.'
             }
           ],
           teammates: [
