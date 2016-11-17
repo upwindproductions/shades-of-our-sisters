@@ -33,6 +33,14 @@
                         </ul>
                     </li>
 
+                    <li ng-class='{active: tabService.isSet(3)' class='hidden-tab'>
+                      <a href='#/sonya' ng-click='tabService.setTab(3)'>Sonya</a>
+                    </li>
+
+                    <li ng-class='{active: tabService.isSet(3)' class='hidden-tab'>
+                      <a href='#/sonya' ng-click='tabService.setTab(3)'>Patricia</a>
+                    </li>
+
                     <li ng-class="{active: tabService.isSet(4)}">
                       <a href="#/next" ng-click="tabService.setTab(4)">What's Next</a>
                     </li>

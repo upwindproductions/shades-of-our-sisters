@@ -246,7 +246,6 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
   /*background-color: #ffffff;*/
@@ -848,7 +847,6 @@ select[multiple].input-lg {
 }
 .nav > li {
   position: relative;
-  display: block;
 }
 .nav > li > a {
   position: relative;

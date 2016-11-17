@@ -8,17 +8,20 @@ define(['servicesFactory'],
         var service = {
           /* ------------ LANDING PAGE --------------*/
 
-          profile_left_name: "Sonya's story",
-          profile_left_description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-          profile_right_name: "Patricia's story",
-          profile_right_description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-          blurb: ['Her smile, her laugh.',
+          'profile_left_name': "Sonya's story",
+          'profile_left_description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+          'profile_right_name': "Patricia's story",
+          'profile_right_description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+          'blurb': ['Her smile, her laugh.',
                   'She stood up for her siblings and she spoke her mind.',
                   'She looked like her mother and sounded just like her sister.',
                   'How she lived, how she is loved and just how much she is missed.',
                   'These are the Shades of Our Sisters.'],
-          about_blurb: 'Shades of Our Sisters directly challenges the way in which the Canadian mainstream media is portraying our Missing and Murdered Indigenous Women by focusing on how they lived, not how they died. Coinciding with the February Strawberry Ceremonies, Shades of Our Sisters will debut a live exhibition and two short documentaries that celebrate the spirit and memories of Sonya Cywink and Patricia Carpenter. The exhibition works to tell stories of Sonya and Patricia through artifacts from their lives, short documentary pieces and soundscapes. This project humanizes two of the 1,600+ MMIWGT2S in an extremely intimate manner, creating an education violence prevention experience which will last with those who attend. Our hope is that the stories of Sonya and Patricia will encourage young people to recognize how they can work to prevent violence from happening in their own lives and their communities at large.',
-          producers: [
+          'about_blurb':['Named by the families of Sonya Cywink and Patricia Carpenter, Shades of Our Sisters originates from an old Ojibwe story. Within this teaching, Shades are said to be what is left  behind on this earth when a person’s spirit passes to the Land of their Ancestors.',
+                      'Shades of Our Sisters is an Indigenous-student collaboration which aims to honour the lives of  Missing and Murdered Indigenous Women, Girls, Transgendered and Two Spirit peoples by celebrating the love and memories which they have left with us. In an attempt to bring a compassionate approach to how these stories are told, the project focuses on how these women lived and how they are loved. The families of Sonya Cywink and Patricia Carpenter are the producers of the project and the Ryerson team is honoured to work with them to tell their stories.',
+                      'Shades of Our Sisters is an installation which celebrates the spirit and memories of Sonya Cywink and Patricia Carpenter through artifacts from their lives, short documentary pieces and soundscapes. This project humanizes two of the 1,200+ MMIWGT2S in an extremely intimate manner, creating an education violence prevention experience which will last with those who attend. Our hope is that the stories of Sonya and Patricia will encourage young people to recognize how they can work to prevent violence from happening in their own lives and their communities at large.',
+                      'We want those who attend to become an active part of reconciliation in ways that extend beyond the passive consumption of short form media. Our goal is to take an innovative approach at how students and Indigenous communities can collaborate to tell important stories through new media. The installation opens on Ryerson campus February 17th-19th and will travel to Alderville First Nations on February 21st- 22nd and Whitefish River First Nations on February 24th- 25th.'],
+          'producers': [
             {
               'name': 'Maggie Cywink',
               'profile_pic': './resources/about/producers/mag.jpg',
@@ -35,7 +38,7 @@ define(['servicesFactory'],
               'blurb': 'Joyce spent many years working in Indian and Northern Affairs as well as volunteering at Native organizations like NWRC and Council Fire. Now retired, Joyce is currently involved in the Aboriginal community of Toronto, and has become a spokesperson for the MMIWGT2S. She has five sons and seven grandchildren, who she knows would absolutely love their Auntie Trish.'
             }
           ],
-          teammates: [
+          'teammates': [
             {
               'name': 'Laura Heidenheim',
               'role': 'Executive Producer',
@@ -109,7 +112,7 @@ define(['servicesFactory'],
               'email': 'antonietta.emmanuel@ryerson.ca'
             }
           ],
-          sponsors: [
+          'sponsors': [
             {
               'image': './resources/about/credits/rcds.png'
             },
@@ -130,11 +133,48 @@ define(['servicesFactory'],
             }
           ],
           'credits_blurb': 'We’d like to thank you for supporting Shades of our Sisters.',
-          'next_blurb': 'There needs to be a sacred circle of healing. When the healing starts our family and community grows stronger. We have the answers, we just need to start listening.',
+          'next_blurb': '"There needs to be a sacred circle of healing. When the healing starts our family and community grows stronger. We have the answers, we just need to start listening."',
           'next_author_quote': 'Maggie Cywink',
           'contact_blurb': 'This page will be updated with links and resources on how you can prevent violence in your communities, and promote a safe environment. In the meantime, if you have further questions, please feel free to contact us at ',
           'email': 'info@shadesofoursisters.com',
-          'miigwetch': ' Miigwetch.'
+          'miigwetch': ' Miigwetch.',
+          'resources':[
+            {
+              'name': 'Assaulted Women’s Helpline',
+              'numbers': ['1-866-863-0511 (toll free)',
+                          'GTA: 416-863-0511',
+                          'TTY 1-866-863-7868 (toll free)',
+                          'TTY GTA 416-364-8762']
+            },
+            {
+              'name': 'Ontario Network of Sexual Assault/Domestic Violence Treatment Centres',
+              'site': 'www.satcontario.com'
+            },
+            {
+              'name': "METRAC's Community Justice Program",
+              'site': 'legaldirector@metrac.org',
+              'numbers': ['416-392-3148']
+            },
+            {
+              'name': 'Anishnawbe Health Mental Health Crisis Line',
+              'site': 'www.aht.ca',
+              'numbers': ['416-891-8606']
+            },
+            {
+              'name': 'Centre For Addiction and Mental Health (CAMH)',
+              'numbers': ['416-535-8501 ext. 32437']
+            },
+            {
+              'name': 'Survivor Support Program',
+              'numbers': ['Alex Shendelman',
+                          'Office Phone: 416-595-1716',
+                          'Crisis Phone: 416-408-4357']
+            },
+            {
+              'name': 'Kids Help Phone',
+              'numbers': ['1-800-668-6868']
+            }
+          ]
         };
 
         service.init = function(scope) {
