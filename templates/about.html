@@ -2,11 +2,11 @@
 
 <div id='about-background' class='page-wrap'>
     <div id='blurb-section' class='section-wrapper'>
-      <!--p class='section-header'>What is Shades of Our Sisters?</p>
-      <div class='section-divider'></div-->
+      <p class='section-header'>About</p>
+      <div class='section-divider'></div>
 
       <div id='blurb-wrapper'>
-        <p>{{contentService.about_blurb}}</p>
+        <p ng-repeat='about_blurb in contentService.about_blurb'>{{about_blurb}}</p>
       </div>
     </div>
 
