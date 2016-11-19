@@ -16,7 +16,7 @@
     <div class='resource' ng-repeat='resource in contentService.resources'>
       <p class='resource-name'>{{resource.name}}</p>
       <p class='resource-numbers' ng-repeat='number in resource.numbers'>{{number}}</p>
-      <p class='resource-site'>{{resource.site}}</p>
+      <a ng-href='{{resource.url}}' class='resource-site'>{{resource.site}}</a>
     </div>
   </div>
 </div>
