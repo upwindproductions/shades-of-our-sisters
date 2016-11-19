@@ -82,9 +82,6 @@ THIS FILE IS THE FIRST JAVASCRIPT FILE THAT IS LOADED AND CONTROLS THE INITIALAL
             .when('/stories', {templateUrl: 'templates/temp.html'}).
             otherwise({redirectTo: '/'})
 
-            .when('/blog', {templateUrl: 'templates/temp.html'}).
-            otherwise({redirectTo: '/'})
-
             .when('/next', {templateUrl: 'templates/next.html', controller: "NextCtrl"}).
             otherwise({redirectTo: '/'})
 
