@@ -1,3 +1,4 @@
+// This file contains all the strings needed to populate the pages of the site
 define(['servicesFactory'],
 
   function(servicesFactory) {
