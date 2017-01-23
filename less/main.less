@@ -18,6 +18,7 @@
 @brown: #EFE8D8;
 @salmon: #FBCDB1;
 @gray: #E6E6E6;
+@white: rgba(255, 255, 255, 0.7);
 
 @footer-height: 50px;
 @footer-background-color: white;
@@ -95,6 +96,7 @@ li span {
 .section-wrapper {
   padding: @section-wrapper-padding;
   width: 100%;
+  text-align: center;
 }
 
 
@@ -443,7 +445,7 @@ footer {
 }
 
 .producers-wrapper {
-  background-color: white;
+  background-color: @white;
   padding: 15px;
   margin: 5% auto;
   text-align: center;
@@ -466,7 +468,7 @@ footer {
 
 #about-background {
   .team-wrapper {
-    background-color: white;
+    background-color: @white;
     height: 300px;
     width: 25%;
     padding: 15px;
@@ -557,7 +559,7 @@ footer {
 
 #contact-blurb {
   padding: 5% 10%;
-  background-color: white;
+  background-color: @white;
   margin: 10% auto;
 
   span, a {
@@ -619,6 +621,66 @@ footer {
     text-align: center;
     width: 100%;
   }
+}
+
+
+/* ----------------------------------------- EXHIBITION ---------------------------------*/
+
+#exhibition-background {
+  height: auto;
+
+  img {
+    width: 50%;
+    vertical-align: top;
+    display: inline-block;
+    margin: 2% 1%;
+  }
+}
+
+#exhibition-textbox1 {
+  width: 30%;
+}
+
+#exhibition-textbox2 {
+  width: 62%;
+}
+
+#exhibition-textbox3 {
+  width: 80%;
+}
+
+.exhibition-intro-header {
+  font-family: 'Quadraat';
+  font-weight: normal;
+}
+
+.exhibition-textbox {
+  background-color: @white;
+  padding: 30px;
+  vertical-align: top;
+  display: inline-block;
+  margin: 2% 1%;
+}
+
+.exhibition-textbox-quote {
+  color: @maroon;
+}
+
+#exhibition-schedule-block {
+  width: 50%;
+  display: inline-block;
+  margin: 2% 1%;
+  color: @maroon;
+  font-family: 'Lato';
+}
+
+.exhibition-city {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#twitter-wrapper {
+  margin-bottom: 50px;
 }
 
 
@@ -867,11 +929,20 @@ footer {
   .page-wrap {
     height: auto;
   }
+
+  #exhibition-textbox1, #exhibition-textbox2, #exhibition-textbox3 {
+    width: 80%;
+  }
 }
 
 /*--------- DESKTOP ---------*/
 
 @media (min-width: 1200px) {
+  #exhibition-background {
+    img {
+      width: 30%;
+    }
+  }
 
   #blurb-logo {
     margin-top: 30%
