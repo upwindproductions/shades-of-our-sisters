@@ -1,3 +1,41 @@
 <navbar></navbar>
-  test
+
+<div id='exhibition-background' class='page-wrap'>
+  <div class='section-wrapper'>
+    <p>{{ exhibition_blurb1 }}</p>
+    <div class='section-divider'></div>
+    <p>{{ exhibition_blurb2 }}</p>
+
+    <img src='./resources/about/team/josephine.png'>
+    <div class='exhibition-textbox'>
+      <p class='exhibition-textbox-quote'>{{ exhibition_blurb3 }}</p>
+      <p>{{ exhibition_blurb4 }}</p>
+    </div>
+    <img src='./resources/about/team/josephine.png'>
+    <div class='exhibition-textbox'>
+      <p>{{ exhibition_blurb5 }}</p>
+      <p class='exhibition-textbox-quote'>{{ exhibition_blurb6 }}</p>
+      <p>{{ exhibition_blurb7 }}</p>
+    </div>
+    <img src='./resources/about/team/josephine.png'>
+    <img src='./resources/about/team/josephine.png'>
+
+    <p class='exhibition-schedule'>Shades of Our Sisters Exhibition Schedule</p>
+    <div ng-repeat='exhibition in exhibition_schedule'>
+      <p class='exhibition-city'>{{ exhibition.city }}</p>
+      <p>{{ exhibition.location }}</p>
+      <p ng-repeat='date in exhibition.dates'>{{ date }}</p>
+    </div>
+
+    <div class=section-divider></div>
+
+    <p class='section-header'>Join the Conversation</p>
+    <div class='section-divider'></div>
+
+    <div class='exhibition-textbox'>
+      <p>Throughout the next week, we are asking those who attend the exhibition to join the conversation on <a href='https://twitter.com'>Twitter</a> by using the hashtag, <a href='https://twitter.com'>#HowSheLived</a> and <a href='https:/twitter.com'>#MMIWG</a>. Feel free to upload any images, videos or simply help us spread the word about Shades of Our Sisters.</p>
+    </div>
+  </div>
+</div>
+
 <custom-footer></custom-footer>

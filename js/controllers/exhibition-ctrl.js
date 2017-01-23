@@ -19,7 +19,5 @@ define(["controllersFactory",
       $scope.contentService = contentService.init($scope);
       $scope.tabService = tabService.init($scope);
       $scope.tabService.setTab(3);
-
-      $scope.producers = $scope.contentService.producers;
   }]);
 });
