@@ -71,7 +71,8 @@ THIS FILE IS THE FIRST JAVASCRIPT FILE THAT IS LOADED AND CONTROLS THE INITIALAL
         'controllers/about-ctrl',
         'controllers/next-ctrl',
         'controllers/patricia-ctrl',
-        'controllers/sonya-ctrl'
+        'controllers/sonya-ctrl',
+        'controllers/exhibition-ctrl'
       ],
       function() {
         app.config(['$routeProvider', function($routeProvider) {
@@ -103,7 +104,7 @@ THIS FILE IS THE FIRST JAVASCRIPT FILE THAT IS LOADED AND CONTROLS THE INITIALAL
             otherwise({redirectTo: '/'})
 
             // Inaccessible from web
-            .when('/next_91810s9d193010', {templateUrl: 'templates/stage/next.html', controller: "NextCtrl"}).
+            .when('/exhibition_91810s9d193010', {templateUrl: 'templates/stage/exhibition.html', controller: "ExhibitionCtrl"}).
             otherwise({redirectTo: '/'});
         }]);
 

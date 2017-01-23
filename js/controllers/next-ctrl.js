@@ -17,6 +17,6 @@ define(["controllersFactory",
       tabService) {
       $scope.contentService = contentService.init($scope);
       $scope.tabService = tabService.init($scope);
-      $scope.tabService.setTab(5);
+      $scope.tabService.setTab(4);
   }]);
 });
