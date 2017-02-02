@@ -178,10 +178,16 @@ define(['servicesFactory'],
           'exhibition_blurb1': "The Shades of Our Sisters Exhibit invites audiences into the lives of Sonya Cywink and Patricia Carpenter.",
           'exhibition_blurb2': "Short documentaries, soundscapes and personal artifacts tell a story of who these women were and what the loss of their life means to those who love them.",
           'exhibition_blurb3': '"It was like she went from 13-30."',
-          'exhibition_blurb4': "This is the transformation Patricia's mother saw in her when she became pregnant at the tender age of 13. Patricia had always taken care of her brothers and now she was facing the challenge of a lifetime - raising a child of her own. This strong, bold and maternal young woman was proud to be a mother and ready to give her son everything she could. In the six short weeks she spent with him, she did just that.",
+          'exhibition_blurb4': "This is the transformation Patricia's mother saw in her when she became pregnant at the age of 13. Patricia had always taken care of her brothers and now she was facing the challenge of a lifetime - raising a child of her own. This strong, bold and maternal young woman was proud to be a mother and ready to give her son everything she could. In the six short weeks she spent with him, she did just that.",
           'exhibition_blurb5': "It's a cold winter's night and a group of young children move through the streets of Birch Island, huddled together as they approach a house. Their fearless leader walks up to the door and knocks, only to step back and nudge them forward.",
           'exhibition_blurb6': '"Long before empowerment was a word, she instilled that upon us"',
           'exhibition_blurb7': "says Teresa Jacko. 'She empowered us to go around the reserve and sing Christmas carols in cold weather.' Sonya left a mark on every person she met. She was a leader whose future had so much promise.",
+          'exhibition_images': {
+            'patricia1': "./resources/exhibition/patricia1.png",
+            'patricia2': "./resources/exhibition/patricia2.png",
+            'sonya1': "./resources/exhibition/sonya1.png",
+            'sonya2': "./resources/exhibition/sonya2.png",
+          },
           'exhibition_schedule':
           [
             {
