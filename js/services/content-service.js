@@ -194,7 +194,8 @@ define(['servicesFactory'],
               'city': 'Toronto',
               'location': 'Tecumseh Auditorium',
               'dates': [
-                'Fri. February 17th 6:30 pm - 9:00 pm',
+                'Fri. February 17th 4:00 pm - 9:00 pm',
+                'Opening Ceremonies at 6:30 pm',
                 'Sat. February 18th - Sun. February 19th 11:00 pm - 5:00 pm'
               ]
             },
