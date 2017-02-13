@@ -23,7 +23,7 @@ define(['servicesFactory'],
             {
               'name': 'Maggie Cywink',
               'profile_pic': './resources/about/producers/mag.jpg',
-              'blurb': 'Maggie Cywink is a member of the Espanola High School and is currently residing in Virginia, USA. She owns a curatorial business which deals with private collectors across Canada and the United States. She also owns an event planning business focusing on First Nations. Since 1994, she has been advocating for the voices of MMIWGT2S People’s families. Her hope is that these families will find a way to heal.'
+              'blurb': 'Maggie Cywink is a member of the Whitefish River First Nations and is currently residing in Virginia, USA. She owns a curatorial business which deals with private collectors across Canada and the United States. She also owns an event planning business focusing on First Nations. Since 1994, she has been advocating for the voices of MMIWGT2S People’s families. Her hope is that these families will find a way to heal.'
             },
             {
               'name': 'Alex Cywink',
