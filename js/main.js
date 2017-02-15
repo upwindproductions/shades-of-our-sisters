@@ -95,16 +95,7 @@ THIS FILE IS THE FIRST JAVASCRIPT FILE THAT IS LOADED AND CONTROLS THE INITIALAL
             .when('/about', {templateUrl: 'templates/about.html', controller: "AboutCtrl"}).
             otherwise({redirectTo: '/'})
 
-            // Inaccessible from web
-            .when('/sonya_ja938fo30llc0', {templateUrl: 'templates/stage/sonya.html', controller: "SonyaCtrl"}).
-            otherwise({redirectTo: '/'})
-
-            // Inaccessible from web
-            .when('/patricia_als0dl29189930', {templateUrl: 'templates/stage/patricia.html', controller: "PatriciaCtrl"}).
-            otherwise({redirectTo: '/'})
-
-            // Inaccessible from web
-            .when('/exhibition_91810s9d193010', {templateUrl: 'templates/stage/exhibition.html', controller: "ExhibitionCtrl"}).
+            .when('/exhibition', {templateUrl: 'templates/exhibition.html', controller: "ExhibitionCtrl"}).
             otherwise({redirectTo: '/'});
         }]);
 
