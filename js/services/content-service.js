@@ -133,11 +133,8 @@ define(['servicesFactory'],
           'credits_blurb': 'We’d like to thank you for supporting Shades of Our Sisters.',
           'next_blurb': '"There needs to be a sacred circle of healing. When the healing starts our family and community grows stronger. We have the answers, we just need to start listening."',
           'next_author_quote': 'Maggie Cywink',
-          'contact_blurb_link1': 'https://www.facebook.com/events/174650976336400/',
-          'contact_blurb_link2': 'https://www.facebook.com/events/284722955263145/',
-          'contact_blurb_link3': 'https://www.facebook.com/events/1449271325098179/',
-          'contact_blurb_link4': 'http://www.blog.shadesofoursisters.com/resources',
-          'contact_blurb_link5': 'mailto:info@shadesofoursisters.com',
+          'blog': 'http://www.blog.shadesofoursisters.com/resources',
+          'email': 'mailto:info@shadesofoursisters.com',
           'resources':[
             {
               'name': 'Assaulted Women’s Helpline',
