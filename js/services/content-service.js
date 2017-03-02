@@ -7,8 +7,7 @@ define(['servicesFactory'],
         var _scope;
 
         var service = {
-          /* ------------ LANDING PAGE --------------*/
-
+          'feather_logo': './resources/logos/feather.png',
           'profile_left_name': "Sonya's story",
           'profile_left_description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
           'profile_right_name': "Patricia's story",
@@ -133,7 +132,12 @@ define(['servicesFactory'],
           'credits_blurb': 'We’d like to thank you for supporting Shades of Our Sisters.',
           'next_blurb': '"There needs to be a sacred circle of healing. When the healing starts our family and community grows stronger. We have the answers, we just need to start listening."',
           'next_author_quote': 'Maggie Cywink',
-          'blog': 'http://www.blog.shadesofoursisters.com/resources',
+          'blog': {
+            'home': 'http://www.blog.shadesofoursisters.com',
+            'participate': 'http://www.blog.shadesofoursisters.com/feathersforourwomen',
+            'resources': 'http://www.blog.shadesofoursisters.com/resources',
+            'journey': 'http://www.blog.shadesofoursisters.com/feathersforourwomen1'
+          },
           'email': 'mailto:info@shadesofoursisters.com',
           'resources':[
             {
@@ -212,7 +216,12 @@ define(['servicesFactory'],
                 'Sat. February 25th 9:00 am - 8:00 pm'
               ]
             }
-          ]
+          ],
+          'exhibition_links': {
+            'toronto': 'https://www.facebook.com/events/174650976336400/',
+            'alderville': 'https://www.facebook.com/events/284722955263145/',
+            'espanola': 'https://www.facebook.com/events/1449271325098179/'
+          }
         };
 
         service.init = function(scope) {

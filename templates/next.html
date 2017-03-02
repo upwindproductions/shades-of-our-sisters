@@ -8,14 +8,17 @@
     <p id='next-author-quote'>{{ contentService.next_author_quote }}</p>
 
     <p id='contact-blurb'>
-      This page will be updated with links and resources on how you can prevent violence in your communities, and promote a safe environment. For a more extensive list, please check our <a ng-href='{{blog}}'>blog</a>. In the meantime, if you have further questions, please feel free to contact us at <a ng-href='{{email}}'>info@shadesofoursisters.com</a>. Miigwetch.
+      After traveling Shades of Our Sisters from <a ng-href='{{exhibition_links.toronto}}''>Toronto</a> to <a ng-href='{{exhibition_links.alderville}}'>Alderville</a> and <a ng-href='{{exhibition_links.espanola}}'>Espanola</a>, Upwind Productions has received an astounding amount of positive feedback and inquiries about continuing this project. Therefore, we have decided to continue traveling Shades of Our Sisters in Canada. If you are interested in bringing Shades of Our Sisters to your community, please e-mail us at <a ng-href='{{email}}'>info@shadesofoursisters.com</a> for more information, or call <span class='highlight_maroon'>519-614-2338</span> to speak directly with executive producer Laura Heidenheim.
+      <br>
+      <br>
+      In the meantime, don’t forget to check out the <a ng-href='{{blog.home}}'>blog</a>, where you may keep up to date with our progress and check out helpful <a ng-href='{{blog.resources}}'>links and resources</a> on how to stay safe and prevent violence in your respective communities. As well, our Feathers for Our Women journey is documented <a ng-href='{{blog.journey}}'>here</a>, but if you’d like to participate and complete this activity with your school, organization and/or community, please click <a ng-href='{{blog.participate}}'>here</a> or e-mail us at <a ng-href='{{email}}'>info@shadesofoursisters.com</a> for more information.
+      <br>
+      <br>
+      Chi Miigwetch
+      <br>
+      <br>
+      <img src='{{feather_logo}}'>
     </p>
-
-    <div class='resource' ng-repeat='resource in contentService.resources'>
-      <p class='resource-name'>{{resource.name}}</p>
-      <p class='resource-numbers' ng-repeat='number in resource.numbers'>{{number}}</p>
-      <a ng-href='{{resource.url}}' class='resource-site'>{{resource.site}}</a>
-    </div>
   </div>
 </div>
 
