@@ -232,7 +232,8 @@ define(['servicesFactory'],
             'https://www.facebook.com/pg/CafePowWow/photos/?ref=page_internal': './resources/exhibition/companies/pow.png',
             'http://moosehidecampaign.ca/': './resources/exhibition/companies/moose.jpg',
             'http://www.ryerson.ca': './resources/exhibition/companies/ryerson.png'
-          }
+          },
+          'full_album_link': 'https://www.facebook.com/pg/shadesofoursisters/photos/?tab=album&album_id=1677530575872725 '
         };
 
         service.init = function(scope) {
