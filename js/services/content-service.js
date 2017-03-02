@@ -230,8 +230,7 @@ define(['servicesFactory'],
             'https://www.facebook.com/ryersonuofmosaic/': './resources/exhibition/companies/mosaic.png',
             'http://www.teanbannock.ca/': './resources/exhibition/companies/tea.jpeg',
             'https://www.facebook.com/pg/CafePowWow/photos/?ref=page_internal': './resources/exhibition/companies/pow.png',
-            'http://moosehidecampaign.ca/': './resources/exhibition/companies/moose.jpg',
-            'http://www.ryerson.ca': './resources/exhibition/companies/ryerson.png'
+            'http://moosehidecampaign.ca/': './resources/exhibition/companies/moose.jpg'
           },
           'full_album_link': 'https://www.facebook.com/pg/shadesofoursisters/photos/?tab=album&album_id=1677530575872725 '
         };
