@@ -537,7 +537,6 @@ footer {
   }
 }
 
-
 /* --------------------------------- NEXT ---------------------------------- */
 
 #next-background {
@@ -638,6 +637,10 @@ footer {
     display: inline-block;
     margin: 2% 1%;
   }
+
+  a {
+    color: @maroon;
+  }
 }
 
 #exhibition-textbox1 {
@@ -714,8 +717,18 @@ footer {
 }
 
 .lightbox_column {
-  float: left;
-  width: 25%;
+  width: 33%;
+  height: auto;
+  display: inline-block;
+}
+
+#exhibition-background {
+  .lightbox_row {
+    img {
+      width: 100%;
+      height: 225px;
+    }
+  }
 }
 
 /* The Modal (background) */

@@ -219,7 +219,20 @@ define(['servicesFactory'],
                 'Fri. February 24th 6:30 pm - 9:00 pm',
                 'Sat. February 25th 9:00 am - 8:00 pm'
               ]
-            }]
+            }],
+          'thankyou_blurb': 'Thank you to these groups and organizations for taking part in and supporting the Shades of Our Sisters exhibition. Click on the images to visit their site and learn more.',
+          'thankyou_companies': {
+            'http://www.victimservicesontario.ca': './resources/exhibition/companies/victim_ontario.jpg',
+            'http://victimservicestoronto.com/': './resources/exhibition/companies/victim_toronto.jpg',
+            'http://trccmwar.ca/': './resources/exhibition/companies/TRCCM.jpg',
+            'http://www.nativechild.org/': './resources/exhibition/companies/native.jpg',
+            'https://torontodistresscentre.com/': './resources/exhibition/companies/survivor.jpg',
+            'https://www.facebook.com/ryersonuofmosaic/': './resources/exhibition/companies/mosaic.png',
+            'http://www.teanbannock.ca/': './resources/exhibition/companies/tea.jpeg',
+            'https://www.facebook.com/pg/CafePowWow/photos/?ref=page_internal': './resources/exhibition/companies/pow.png',
+            'http://moosehidecampaign.ca/': './resources/exhibition/companies/moose.jpg',
+            'http://www.ryerson.ca': './resources/exhibition/companies/ryerson.png'
+          }
         };
 
         service.init = function(scope) {

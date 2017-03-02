@@ -8,13 +8,15 @@
     <p id='exhibition-blurb'>
     {{exhibition_blurb}}
     </p>
-  </div>
 
-  <div class='section-wrapper'>
     <div class="lightbox_row">
       <div class="lightbox_column" ng-repeat='slideshow_img in exhibition_slideshow_imgs'>
         <img src="{{slideshow_img}}" ng-click="openModal();currentSlide($index)" class="hover-shadow">
       </div>
+    </div>
+
+    <div>
+      <a ng-href='{{blog.home}}'>Click here to view the full album</a>
     </div>
 
     <div id='exhibition-modal' class="modal">
@@ -35,6 +37,15 @@
       </div>
     </div>
   </div>
+
+  <div id='credits-section' class='section-wrapper'>
+      <p class='section-header'>Thank You</p>
+      <div class='section-divider'></div>
+      <p id='credits-blurb'>{{thankyou_blurb}}</p>
+      <div class='sponsor' ng-repeat='(url, img) in thankyou_companies'>
+        <a ng-href='{{url}}'><img src={{img}}></a>
+      </div>
+    </div>
 </div>
 
 <custom-footer></custom-footer>
