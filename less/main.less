@@ -723,7 +723,7 @@ footer {
 }
 
 .lightbox_column {
-  width: 33%;
+  width: 100%;
   height: auto;
   display: inline-block;
 }
@@ -912,6 +912,12 @@ img.hover-shadow {
     }
 }
 
+@media (min-width: 480px) {
+  .lightbox_column {
+    width: 50%;
+  }
+}
+
 @media (max-width: 690px){
   .navbar .container{
       padding-left: 10px;
@@ -1045,6 +1051,10 @@ img.hover-shadow {
       display: inline-table;
     }
    }
+
+   .lightbox_column {
+      width: 33%;
+    }
 }
 
 @media (max-width: 1000px) and (min-width: 690px){
