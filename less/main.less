@@ -638,13 +638,22 @@ footer {
 }
 
 
+/* ------------------------------------- STORY MAP -----------------------------------*/
+
+
+.storymap-frame {
+  width: @storymap-width;
+  height: @storymap-height;
+}
+
+
 /* ----------------------------------------- EXHIBITION ---------------------------------*/
 
 #exhibition-background {
   height: auto;
 
   img {
-    width: 50%;
+    width: 100%;
     vertical-align: top;
     display: inline-block;
     margin: 2% 1%;
@@ -659,65 +668,6 @@ footer {
     height: 250px;
     margin: 0 1%;
   }
-}
-
-#exhibition-textbox1 {
-  width: 30%;
-}
-
-#exhibition-textbox2 {
-  width: 62%;
-}
-
-#exhibition-textbox3 {
-  width: 80%;
-
-  a, span {
-    color: @maroon;
-  }
-}
-
-.exhibition-intro-header {
-  font-family: 'Quadraat';
-  font-weight: normal;
-}
-
-.exhibition-textbox {
-  background-color: @white;
-  padding: 30px;
-  vertical-align: top;
-  display: inline-block;
-  margin: 2% 1%;
-}
-
-.exhibition-textbox-quote {
-  color: @maroon;
-}
-
-#exhibition-schedule-block {
-  width: 50%;
-  display: inline-block;
-  margin: 2% 1%;
-  color: @maroon;
-  font-family: 'Lato';
-}
-
-.exhibition-city {
-  font-size: 22px;
-  font-weight: bold;
-}
-
-#twitter-wrapper {
-  padding-bottom: 120px;
-}
-
-
-/* ------------------------------------- STORY MAP -----------------------------------*/
-
-
-.storymap-frame {
-  width: @storymap-width;
-  height: @storymap-height;
 }
 
 
@@ -1150,7 +1100,7 @@ img.hover-shadow {
 /*--------- DESKTOP ---------*/
 
 @media (min-width: 1200px) {
-  #exhibition-background {
+  .lightbox_row {
     img {
       width: 30%;
     }
