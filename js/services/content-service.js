@@ -176,6 +176,21 @@ define(['servicesFactory'],
               'numbers': ['1-800-668-6868']
             }*/
           ],
+          'exhibition_blurb': 'The Shades of Our Sisters multimedia exhibition premiered on Friday, February 17th at the Tecumseh Auditorium in Toronto, Ontario. In the span of a week, the exhibition also traveled to the Alderville Community Centre in Alderville, Ontario and Espanola High School in Espanola, Ontario. Check out the behind-the-scenes and re-cap below.',
+          'exhibition_images': {
+            'patricia1': "./resources/exhibition/patricia1.png",
+            'patricia2': "./resources/exhibition/patricia2.png",
+            'sonya1': "./resources/exhibition/sonya1.png",
+            'sonya2': "./resources/exhibition/sonya2.png"
+          },
+          'exhibition_slideshow_imgs': [
+            './resources/exhibition/slide1.jpg',
+            './resources/exhibition/slide2.jpg',
+            './resources/exhibition/slide3.jpg',
+            './resources/exhibition/slide4.jpg',
+            './resources/exhibition/slide5.jpg',
+            './resources/exhibition/slide6.jpg'
+          ],
           'exhibition_blurb1': "The Shades of Our Sisters Exhibit invites audiences into the lives of Sonya Cywink and Patricia Carpenter.",
           'exhibition_blurb2': "Short documentaries, soundscapes and personal artifacts tell a story of who these women were and what the loss of their life means to those who love them.",
           'exhibition_blurb3': '"It was like she went from 13-30."',
@@ -183,14 +198,7 @@ define(['servicesFactory'],
           'exhibition_blurb5': "It's a cold winter's night and a group of young children move through the streets of Birch Island, huddled together as they approach a house. Their fearless leader walks up to the door and knocks, only to step back and nudge them forward.",
           'exhibition_blurb6': '"Long before empowerment was a word, she instilled that upon us"',
           'exhibition_blurb7': "says Teresa Jacko. 'She empowered us to go around the reserve and sing Christmas carols in cold weather.' Sonya left a mark on every person she met. She was a leader whose future had so much promise.",
-          'exhibition_images': {
-            'patricia1': "./resources/exhibition/patricia1.png",
-            'patricia2': "./resources/exhibition/patricia2.png",
-            'sonya1': "./resources/exhibition/sonya1.png",
-            'sonya2': "./resources/exhibition/sonya2.png",
-          },
-          'exhibition_schedule':
-          [
+          'exhibition_schedule':[
             {
               'city': 'Toronto',
               'location': 'Tecumseh Auditorium',
@@ -221,7 +229,20 @@ define(['servicesFactory'],
             'toronto': 'https://www.facebook.com/events/174650976336400/',
             'alderville': 'https://www.facebook.com/events/284722955263145/',
             'espanola': 'https://www.facebook.com/events/1449271325098179/'
-          }
+          },
+          'thankyou_blurb': 'Thank you to these groups and organizations for taking part in and supporting the Shades of Our Sisters exhibition. Click on the images to visit their site and learn more.',
+          'thankyou_companies': {
+            'http://www.victimservicesontario.ca': './resources/exhibition/companies/victim_ontario.jpg',
+            'http://victimservicestoronto.com/': './resources/exhibition/companies/victim_toronto.jpg',
+            'http://trccmwar.ca/': './resources/exhibition/companies/TRCCM.jpg',
+            'http://www.nativechild.org/': './resources/exhibition/companies/native.jpg',
+            'https://torontodistresscentre.com/': './resources/exhibition/companies/survivor.jpg',
+            'https://www.facebook.com/ryersonuofmosaic/': './resources/exhibition/companies/mosaic.png',
+            'http://www.teanbannock.ca/': './resources/exhibition/companies/tea.jpeg',
+            'https://www.facebook.com/pg/CafePowWow/photos/?ref=page_internal': './resources/exhibition/companies/pow.png',
+            'http://moosehidecampaign.ca/': './resources/exhibition/companies/moose.jpg'
+          },
+          'full_album_link': 'https://www.facebook.com/pg/shadesofoursisters/photos/?tab=album&album_id=1677530575872725'
         };
 
         service.init = function(scope) {
