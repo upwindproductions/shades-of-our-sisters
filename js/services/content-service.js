@@ -92,7 +92,7 @@ define(['servicesFactory'],
             },
             {
               'name': 'Joshua Howe',
-              'role': 'Financial Officer',
+              'role': 'Chief Financial Officer',
               'sub_role': 'Marketing Director',
               'profile_pic': './resources/about/team/josh.png',
               'instagram': 'https://www.instagram.com/joshuaahowe/',
