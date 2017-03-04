@@ -96,9 +96,6 @@ THIS FILE IS THE FIRST JAVASCRIPT FILE THAT IS LOADED AND CONTROLS THE INITIALAL
             otherwise({redirectTo: '/'})
 
             .when('/exhibition', {templateUrl: 'templates/exhibition.html', controller: "ExhibitionCtrl"}).
-            otherwise({redirectTo: '/'})
-
-            .when('/exhibition_a9sj92921xc09', {templateUrl: 'templates/stage/exhibition.html', controller: "ExhibitionCtrl"}).
             otherwise({redirectTo: '/'});
         }]);
 
