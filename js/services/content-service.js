@@ -242,7 +242,7 @@ define(['servicesFactory'],
             'https://www.facebook.com/pg/CafePowWow/photos/?ref=page_internal': './resources/exhibition/companies/pow.jpg',
             'http://moosehidecampaign.ca/': './resources/exhibition/companies/moose.jpg'
           },
-          'full_album_link': 'https://www.facebook.com/pg/shadesofoursisters/photos/?tab=album&album_id=1677530575872725'
+          'full_album_link': 'https://www.facebook.com/pg/shadesofoursisters/photos/?tab=album&album_id=1677530575872725',
         };
 
         service.init = function(scope) {

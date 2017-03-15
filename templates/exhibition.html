@@ -5,12 +5,12 @@
     <p class='section-header'>Exhibition</p>
     <div class='section-divider'></div>
 
-    <p id='exhibition-blurb'>
-    {{exhibition_blurb}}
-    </p>
+    <iframe id='yt-large' src="https://www.youtube.com/embed/2SCJnEHRX9Q" frameborder="0" allowfullscreen></iframe>
+    <iframe id='yt-small' src="https://www.youtube.com/embed/_XGhy1V6XC4" frameborder="0" allowfullscreen></iframe>
 
-    <iframe src="https://www.youtube.com/embed/2SCJnEHRX9Q" frameborder="0" allowfullscreen></iframe>
-    <iframe src="https://www.youtube.com/embed/_XGhy1V6XC4" frameborder="0" allowfullscreen></iframe>
+    <div id='exhibition-blurb'>
+    {{exhibition_blurb}}
+    </div>
 
     <div class="lightbox_row">
       <div class="lightbox_column" ng-repeat='slideshow_img in exhibition_slideshow_imgs'>
