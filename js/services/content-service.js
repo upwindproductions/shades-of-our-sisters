@@ -7,8 +7,7 @@ define(['servicesFactory'],
         var _scope;
 
         var service = {
-          /* ------------ LANDING PAGE --------------*/
-
+          'feather_logo': './resources/logos/feather.png',
           'profile_left_name': "Sonya's story",
           'profile_left_description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
           'profile_right_name': "Patricia's story",
@@ -93,8 +92,8 @@ define(['servicesFactory'],
             },
             {
               'name': 'Joshua Howe',
-              'role': 'Financial Officer',
-              'sub_role': 'Marketing Director',
+              'role': 'Marketing & Communications',
+              'sub_role': 'Chief Financial Officer',
               'profile_pic': './resources/about/team/josh.png',
               'instagram': 'https://www.instagram.com/joshuaahowe/',
               'twitter': 'https://twitter.com/joshhowe9',
@@ -133,7 +132,12 @@ define(['servicesFactory'],
           'credits_blurb': 'We’d like to thank you for supporting Shades of Our Sisters.',
           'next_blurb': '"There needs to be a sacred circle of healing. When the healing starts our family and community grows stronger. We have the answers, we just need to start listening."',
           'next_author_quote': 'Maggie Cywink',
-          'blog': 'http://www.blog.shadesofoursisters.com/resources',
+          'blog': {
+            'home': 'http://www.blog.shadesofoursisters.com',
+            'participate': 'http://www.blog.shadesofoursisters.com/feathersforourwomen',
+            'resources': 'http://www.blog.shadesofoursisters.com/resources',
+            'journey': 'http://www.blog.shadesofoursisters.com/feathersforourwomen1'
+          },
           'email': 'mailto:info@shadesofoursisters.com',
           'resources':[
             {
@@ -219,7 +223,13 @@ define(['servicesFactory'],
                 'Fri. February 24th 6:30 pm - 9:00 pm',
                 'Sat. February 25th 9:00 am - 8:00 pm'
               ]
-            }],
+            }
+          ],
+          'exhibition_links': {
+            'toronto': 'https://www.facebook.com/events/174650976336400/',
+            'alderville': 'https://www.facebook.com/events/284722955263145/',
+            'espanola': 'https://www.facebook.com/events/1449271325098179/'
+          },
           'thankyou_blurb': 'Thank you to these groups and organizations for taking part in and supporting the Shades of Our Sisters exhibition. Click on the images to visit their site and learn more.',
           'thankyou_companies': {
             'http://www.victimservicesontario.ca': './resources/exhibition/companies/victim_ontario.jpg',
@@ -229,10 +239,10 @@ define(['servicesFactory'],
             'https://torontodistresscentre.com/': './resources/exhibition/companies/survivor.jpg',
             'https://www.facebook.com/ryersonuofmosaic/': './resources/exhibition/companies/mosaic.png',
             'http://www.teanbannock.ca/': './resources/exhibition/companies/tea.jpeg',
-            'https://www.facebook.com/pg/CafePowWow/photos/?ref=page_internal': './resources/exhibition/companies/pow.png',
+            'https://www.facebook.com/pg/CafePowWow/photos/?ref=page_internal': './resources/exhibition/companies/pow.jpg',
             'http://moosehidecampaign.ca/': './resources/exhibition/companies/moose.jpg'
           },
-          'full_album_link': 'https://www.facebook.com/pg/shadesofoursisters/photos/?tab=album&album_id=1677530575872725 '
+          'full_album_link': 'https://www.facebook.com/pg/shadesofoursisters/photos/?tab=album&album_id=1677530575872725',
         };
 
         service.init = function(scope) {
