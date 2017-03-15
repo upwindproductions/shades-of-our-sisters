@@ -176,7 +176,7 @@ define(['servicesFactory'],
               'numbers': ['1-800-668-6868']
             }*/
           ],
-          'exhibition_blurb': 'The Shades of Our Sisters multimedia exhibition premiered on Friday, February 17th at the Tecumseh Auditorium in Toronto, Ontario. In the span of a week, the exhibition also traveled to the Alderville Community Centre in Alderville, Ontario and Espanola High School in Espanola, Ontario. Check out the behind-the-scenes and re-cap below.',
+          'exhibition_blurb': 'The Shades of Our Sisters multimedia exhibition premiered on Friday, February 17th at the Tecumseh Auditorium in Toronto, Ontario. In the span of a week, the exhibition also traveled to the Alderville Community Centre in Alderville, Ontario and Espanola High School in Espanola, Ontario. Check out the behind-the-scenes and re-cap above.',
           'exhibition_images': {
             'patricia1': "./resources/exhibition/patricia1.png",
             'patricia2': "./resources/exhibition/patricia2.png",
