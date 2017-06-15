@@ -176,7 +176,7 @@ define(['servicesFactory'],
               'numbers': ['1-800-668-6868']
             }*/
           ],
-          'exhibition_blurb': 'The Shades of Our Sisters multimedia exhibition premiered on Friday, February 17th at the Tecumseh Auditorium in Toronto, Ontario. In the span of a week, the exhibition also traveled to the Alderville Community Centre in Alderville, Ontario and Espanola High School in Espanola, Ontario. Check out the behind-the-scenes and re-cap above.',
+          'exhibition_blurb': 'The Shades of Our Sisters multimedia exhibition has visited Toronto, Alderville First Nations, Espanola and Sudbury, Ontario. To this day, over 2,000 people have experienced the lives of Sonya and Patricia. We welcome public schools, high schools and university tours. To learn more about bringing the exhibit to your community, visit the “What’s Next” page.',
           'exhibition_images': {
             'patricia1': "./resources/exhibition/patricia1.png",
             'patricia2': "./resources/exhibition/patricia2.png",
