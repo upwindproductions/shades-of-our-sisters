@@ -17,7 +17,7 @@ define(['servicesFactory'],
           'about_blurb':['Shades of Our Sisters is an exhibit and online experience co-created by the families of Missing and Murdered Indigenous Women to share the memory of their loved ones and what the loss of their life means. Audiences are transported into the grief, laughter and love of these families; challenging Canadians to realize the injustice of this national tragedy.',
                       'The project was conceived in August of 2016 by the Carpenter Family, the Cywink Family and eight Ryerson media production students. From its conception the mission of Shades of Our Sisters has been to honour the lives of Missing and Murdered Indigenous Women, Girls, Transgender and Two Spirit People and to put their families at the forefront of telling their stories. ',
                       'Shades of Our Sisters celebrates the spirit and memories of Sonya Cywink and Patricia Carpenter, two young Indigenous Women who were tragically taken. Through artifacts from their lives, short video and audio pieces as well as two 20 minute films, those who attend are invited to come to know Sonya and Patricia in an intimate manner. The project also seeks to honour the lives and memories of all MMIWGT2S through our “Feathers for Our Women Project” and by connecting with other families who have also lost loved ones.',
-                      'To learn more, please visit our exhibit page.'],
+                      'To learn more, please visit our "Exhibition" page.'],
           'producers': [
             {
               'name': 'Maggie Cywink',
